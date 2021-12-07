@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>David Chu's China Bistro</title>
     <link rel="stylesheet" href="css\bootstrap.css">
-    <link rel="stylesheet" href="css\stylesheet.css">
+    <link rel="stylesheet" href="css\styles.css">
     <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
   </head>
@@ -41,7 +41,7 @@
   	          <li class="nav-item">
   	            <a href="#"><img id="award" src="award-symbol-svgrepo-com.svg" alt="award icon"><br class=".d-sm-block"> Awards</a>
               </li>
-              <li id="phone" class=".d-sm-block" class="nav-item">
+              <li id="phone" class="d-none d-lg-block">
   	            <a href="tel:410-602-5008"><span>410-602-5008</span></a><div>We Deliver</div>
   	          </li>
             </ul>
@@ -52,12 +52,24 @@
 
   </header>
 
+  <div id="call-btn" class="d-block d-lg-none">
+    <a class="btn" href="tel:410-602-5008">
+    <img id="" src="" alt="">410-602-5008<br><span id="xs-deliver" class="text-center d-block d-lg-none">We Deliver</span></a>
+  </div>
+  
+  <div id="main-content" class="container">
+    <div class="jumbotron">
+      <img src="" alt="Picture of the restaurant" class="img-responsive d-block d-lg-none"
+    </div>
+
+  </div>
+  
 
 
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js\bootstrap.js"></script>
   <script src="js\script.js"></script>
-  <script src="js\jquery-3.6.0.min.js"></script>
+  <script src="js\jquery-3.6.0.js"></script>
 </body>
 </html>
