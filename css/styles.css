@@ -112,28 +112,44 @@ button.navbar-toggler {
 }
 /* END HEADER */
 
+/* HOME PAGE */
+.container .jumbotron {
+  box-shadow: 0 0 50px #3F0C1F;
+  border: 2px solid #3F0C1F;
+}
+
+/* END HOME PAGE */
+
 /********** Large devices only **********/
 @media (min-width: 1200px) {
-
+  .jumbotron {
+    background: url("/Users/emmawise/Coursera_Front_End_Dev/David Chus Site Remake/jumbotron_1200.jpeg");
+    height: 675px;
+  }
 }
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
   /* Header */
   #logo-img {
-    background: src="\\SFLGNVSTO05\profiles$\enwise\Documents\Code Projects\logo2.png" no-repeat;
+    background: src="logo2.png" no-repeat;
     width: 100px;
     height: 100px;
     margin: 5px 5px 5px 0;
   }
   /* End Header */
+
+  .jumbotron {
+    background: url("/Users/emmawise/Coursera_Front_End_Dev/David Chus Site Remake/jumbotron_992.jpeg");
+    height: 558px;
+  }
 }
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
   /* Header */
   #logo-img {
-    background: src="\\SFLGNVSTO05\profiles$\enwise\Documents\Code Projects\logo2.png" no-repeat;
+    background: src="logo2.png" no-repeat;
     width: 100px;
     height: 100px;
     margin: 5px 5px 5px 0;
@@ -141,7 +157,7 @@ button.navbar-toggler {
   #navbarSupportedContent a { /* Collapsed nav menu text */
     font-size: 1.2em;
   }
- #navbarSupportedContent a img { /* Collapsed nav menu glyph */
+  #navbarSupportedContent a img { /* Collapsed nav menu glyph */
     font-size: 1em;
   }
 
@@ -203,4 +219,7 @@ button.navbar-toggler {
   }
   /* End Header */
 
-}
+  .container .jumbotron {
+  margin-top: 30px;
+  padding: 0;
+  }
