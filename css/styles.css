@@ -172,12 +172,12 @@ button.navbar-toggler {
 }
 
 #menu-tile {
-  background: url('/Users/emmawise/Coursera_Front_End_Dev/David Chus Site Remake/menu-tile.jpeg') no-repeat;
+  background: url('menu-tile.jpeg') no-repeat;
   background-position: center;
   background-size: 100% 100%;
 }
 #specials-tile {
-  background: url('/Users/emmawise/Coursera_Front_End_Dev/David Chus Site Remake/specials-tile.jpeg') no-repeat;
+  background: url('specials-tile.jpeg') no-repeat;
   background-position: center;
   background-size: 100% 100%;
 }
@@ -282,7 +282,7 @@ h3.menu-item-title {
 /********** Large devices only **********/
 @media (min-width: 1200px) {
   .container .jumbotron {
-    background: url("/Users/emmawise/Coursera_Front_End_Dev/David Chus Site Remake/jumbotron_1200.jpeg");
+    background: url("jumbotron_1200.jpeg");
     height: 675px;
   }
 }
@@ -299,7 +299,7 @@ h3.menu-item-title {
   /* End Header */
 
   .container .jumbotron {
-    background: url("/Users/emmawise/Coursera_Front_End_Dev/David Chus Site Remake/jumbotron_992.jpeg");
+    background: url("jumbotron_992.jpeg");
     height: 558px;
   }
 }
